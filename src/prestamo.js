@@ -8,7 +8,7 @@ function registrarPrestamo(equipo, cantidad) {
         throw new Error("Stock insuficiente");
     }
 
-    equipo.stock -= cantidad;
+    //equipo.stock -= cantidad;
 
     return equipo.stock;
 }
